@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,16 +21,445 @@
     <h1>Hello, world!</h1>
     <!-- Anything inside container div will be affected by Bootstrap grid system.
     Take a look at http://getbootstrap.com/css/-->
-    <div class="container" style="margin: 0px;">
-      <div class="row">
-        <div class="col-md-4">meow!  4</div>
-        <div class="col-md-4">meow!  4</div>
-      </div>
-      <div class="row" style="color: blue;">
-        <div class="col-md-8">meow!  8</div>
-        <div class="col-md-4">meow!  4</div>
-      </div>
-    </div>
+    <div class="container">
+      <ul class="nav nav-pills" role="tablist">
+        <li class="active"><a href="#sundaes" role="tab" data-toggle="tab">Sundaes</a></li>
+        <li class=""><a href="#icecream" role="tab" data-toggle="tab">Ice Cream</a></li>
+        <li class=""><a href="#maltshake" role="tab" data-toggle="tab">Malts & Shakes</a></li>
+        <li class=""><a href="#sandwiches" role="tab" data-toggle="tab">Sandwiches</a></li>
+        <li class=""><a href="#salads" role="tab" data-toggle="tab">Salads</a></li>
+        <li class=""><a href="#spicy" role="tab" data-toggle="tab">Spicy Stuff</a></li>
+        <li class=""><a href="#extras" role="tab" data-toggle="tab">Extras</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div class="tab-pane fade active in" id="sundaes">
+          <h1>World's Fair Sundaes</h1>
+          <article class="fooditem">
+            <h2>Regular Sundae</h2>
+            Two scoops of any flavor ice cream with your choice of
+            one topping: Chocolate, strawberry, pineapple,
+            cherry, butterscotch or marshmallow sauce
+            <span class="price">4.59</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Make That Sundae A Newport!!!</h2>
+            Same great sundae with a ton of whipped cream & pecans
+            <span class="price">add 1.39</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Caramel Sundae</h2>
+            Rich caramel sauce over two scoops of ice cream
+            <span class="price">4.69</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Hot Fudge Sundae</h2>
+            Handmade fudge sauce, over two scoops of ice cream.
+            Ask for the sauce separately if you like.
+            <span class="price">4.69</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Fruit Salad Sundae</h2>
+            Two scoops of vanilla ice cream lie under a cascade of fruit.
+            <span class="price">4.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Swiss Chocolate Sundae</h2>
+            Lots of vanilla ice cream with sweet chocolate
+            sauce folded in and chocolate sprinkles scattered on
+            top
+            <span class="price">4.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chocolate Marshmallow</h2>
+            Vanilla with chocolate and marshmallow sauce
+            <span class="price">4.79</span>
+          </article>
+
+          <article class="fooditem">
+            <h2>Crown Sundae</h2>
+            Vanilla ice cream with hot fudge and caramel sauce
+            topped with lots of pecans
+            <span class="price">5.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Club House Nut</h2>
+            Lots of pecans and cashews, two scoops of vanilla ice
+            cream with strawberry and pineapple sauce. Its halo of
+            whipped cream is topped by a cherry
+            <span class="price">6.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Lover’s Delight</h2>
+            Twin scoops of ice cream topped with cashews,
+            pineapple and strawberry sauce, banana, whipped
+            cream & a cherry
+            <span class="price">6.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>French Sundae</h2>
+            Three sauces – strawberry, pineapple, and
+            marshmallow –over two scoops of vanilla ice cream
+            with sliced banana. Topped with whipped cream,
+            cashews, chocolate sprinkles and a cherry
+            <span class="price">6.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Fire Chief Special</h2>
+            Two scoops of ice cream with chocolate sauce,
+            strawberries and sliced bananas, pecans, cashews,
+            whipped cream, topped with a cherry
+            <span class="price">6.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Uncle Sam</h2>
+            Two scoops of ice cream with strawberry & pineapple
+            sauce, bananas, cashews & whole pecans smothered in
+            whipped cream and topped with a cherry
+            <span class="price">6.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Banana Split</h2>
+            Whipped cream over two Scoops of ice cream, any
+            flavor, & a banana with strawberry and pineapple
+            sauce, cashews and a cherry
+            <span class="price">6.29</span>
+          </article>
+        </div> <!--End Sundaes-->
+        
+        <div class="tab-pane fade in" id="icecream">
+          <h1>Ice Cream</h1>
+          <i>Homemade, rich & creamy – but not too sweet! It’s 14%
+          butterfat with flavorings blended here in the shop in an antique
+          copper candy kettle. Only the finest ingredients.</i><br><br>
+          
+          <strong>Flavors: Vanilla // Chocolate // Black Cherry // Fresh Strawberry //
+          Pineapple-Orange // Fresh Banana Chocolate Chip // Ozark Black Walnut //
+          Oreo Coffee // Chocolate Chocolate Chip Raspberry</strong><br>
+          <i>Ask about our seasonal offerings!</i>
+          
+          <article class="fooditem">
+            <h2>1-Scoop Cone or Cup</h2>
+            <span class="price">2.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>2-Scoop Cone or Cup</h2>
+            <span class="price">4.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Pint Handpacked Ice Cream</h2>
+            <span class="price">5.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Quart Handpacked Ice Cream</h2>
+            <span class="price">6.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Half Gallon Handpacked Ice Cream</h2>
+            <span class="price">7.99</span>
+          </article>
+        </div> <!--End Ice Cream-->
+        
+        <div class="tab-pane fade in" id="maltshake">
+          <h1>Malts & Shakes</h1>
+          <i>Crown’s built a reputation on them. You get a
+          24-ounce serving. They’re made with 3 large
+          scoops, fresh milk and old-fashioned
+          malted milk powder.</i>
+          
+          <article class="fooditem">
+            <h2>Regular Malt</h2>
+            Flavors: Chocolate // Chocolate Marshmallow // Cherry // Marshmallow //
+            Vanilla // Pineapple // Strawberry // Chocolate Banana // Fresh Banana
+            <span class="price">4.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Johnny Rabbit Special</h2>
+            Fresh banana malt with whipped cream, nuts and nutmeg.
+            <span class="price">5.69</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Ice Cream Soda</h2>
+            <span class="price">4.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chocolate Banana Malted</h2>
+            <span class="price">5.19</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Butterscotch Malted</h2>
+            <span class="price">5.19</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Hot Fudge Malted</h2>
+            <span class="price">5.19</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Thick</h2>
+            <span class="price">Add 1.09</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Malt</h2>
+            <span class="price">Add 0.39</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Topping</h2>
+            <span class="price">Add 0.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Nuts</h2>
+            <span class="price">Add 0.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Whipped Cream</h2>
+            <span class="price">Add 0.79</span>
+          </article>
+        </div> <!--End Malts and Shakes-->
+        
+        <div class="tab-pane fade in" id="sandwiches">        
+          <h1>Sandwiches</h1>
+    
+          <article class="fooditem">
+            <h2>Heart Stopping BLT</h2>
+            Thick-sliced bacon, lettuce and tomato with Miracle
+            Whip served on white toast
+            <span class="price">8.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Grilled Cheese</h2>
+            American cheese melted between thick-sliced, grilled,
+            Texas toast
+            <span class="price">4.49</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Egg Salad</h2>
+            Homemade egg salad on whole wheat toast.
+            <span class="price">5.49</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Tuna Salad</h2>
+            Homemade tuna salad on whole wheat toast
+            <span class="price">6.49</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Gourmet Frank</h2>
+            Beef frank grilled and served on a bun
+            <span class="price">4.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Ham</h2>
+            Sliced ham served on thick-sliced Texas toast
+            <span class="price">6.39</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Grilled Ham & Cheese</h2>
+            Sliced ham & melted cheese served on grilled
+            sourdough
+            <span class="price">6.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Roast Beef</h2>
+            Sliced roast beef served on a large hoagie
+            <span class="price">6.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Corned Beef</h2>
+            Sliced corned beef, piled high and on rye
+            <span class="price">6.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Turkey</h2>
+            Sliced turkey breast served on whole wheat toast
+            <span class="price">6.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Breaded Chicken</h2>
+            Chicken breast, lettuce, tomato, Swiss & Miracle
+            <span class="price">6.49</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chicken Salad (Tues. & Thurs. Only)</h2>
+            Homemade chicken salad served on whole wheat toast
+            with lettuce ... <b>while supply lasts</b>
+            <span class="price">7.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Fish Fillet</h2>
+            Lightly coated and served with American cheese,
+            lettuce and tartar on a hoagie
+            <span class="price">6.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Turkey Special</h2>
+            Turkey with bacon, lettuce, tomato, MiracleWhip
+            served on wheat toast
+            <span class="price">8.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Turkey Bacon Melt</h2>
+            Turkey breast on grilled sourdough bread with Swiss,
+            provolone and bacon
+            <span class="price">8.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Reuben</h2>
+            Corned beef on Rye grilled with Swiss, sauerkraut &
+            Thousand Island dressing
+            <span class="price">8.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Roast Beef Cheddar Melt</h2>
+            Roast beef and cheddar cheese on grilled sourdough
+            <span class="price">7.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>The Big Cheese</h2>
+            Swiss, provolone, cheddar and American cheeses
+            grilled on buttered sourdough bread
+            <span class="price">5.29</span>
+          </article>
+        </div> <!--End Sandwiches-->
+        
+        <div class="tab-pane fade in" id="salads">
+          <h1>Salads</h1>
+  
+          <article class="fooditem">
+            <h2>Chef Salad</h2>
+            Ham, turkey, bacon, lettuce, tomato, cheese and egg
+            <span class="price">8.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Small Salad</h2>
+            Lettuce, tomato, cheese
+            <span class="price">4.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Dressings</h2>
+            Ranch // French // Blue Cheese // Honey Mustard // Thousand Island //
+            Italian // Balsamic Vinaigrette
+          </article>
+        </div> <!--End Salads-->
+
+        <div class="tab-pane fade in" id="spicy">
+          <h1>Chili, Tamales & Other Hot Stuff!</h1>
+          
+          <article class="fooditem">
+            <h2>Small Chili</h2>
+            <span class="price">3.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Large Chili</h2>
+            <span class="price">4.99</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Tamale</h2>
+            <span class="price">3.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chili Tamale</h2>
+            <span class="price">6.59</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chili Mac</h2>
+            <span class="price">6.59</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Chili Dog</h2>
+            <span class="price">7.59</span>
+          </article>
+        </div> <!--End Hot Stuff-->
+      
+        <div class="tab-pane fade in" id="extras">
+          <h1>Extras</h1>
+          
+          <article class="fooditem">
+            <h2>Cheese</h2>
+            American, Swiss, Cheddar, or Provolone
+            <span class="price">0.69</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Onions</h2>
+            <span class="price">0.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Tomatoes</h2>
+            <span class="price">0.29</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Bacon</h2>
+            <span class="price">2.09</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Boiled Egg</h2>
+            <span class="price">0.79</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Extra Dressing for Chef Salad</h2>
+            <span class="price">1.39</span>
+          </article>
+          
+          <article class="fooditem">
+            <h2>Extra Dressing for Small Salad</h2>
+            <span class="price">1.09</span>
+          </article>
+        </div> <!--End Extras-->
+      </div> <!--End tab-content-->
+    </div> <!-- End container-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
