@@ -6,4 +6,10 @@
 
 body {
     padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
 }
