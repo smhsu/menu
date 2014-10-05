@@ -10,8 +10,3 @@ body {
 .shrink {
     height: 250px;
 }
-
-.centered {
-    float: none;
-    margin: 0 auto;
-}
