@@ -1,0 +1,22 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 768px) { /* Stacks the tabs once the screen is small enough */
+    .nav-pills > li {
+        float:none;
+    }
+}
+
+.fooditem {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+  margin: 5px 0px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+}

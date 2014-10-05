@@ -8,7 +8,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/menu.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +20,9 @@
 <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
+
       <div class="navbar-header">
-        <a href="menu.html"><img src="http://placehold.it/100x50" height="50" class="navbar-left" alt="Crown Candy Kitchen"/></a>
+        <a href="index.html"><img src="img/crownlogo-color.png" height="50" class="navbar-left" alt="Crown Candy Kitchen"/></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -29,17 +30,19 @@
           <span class="icon-bar"></span>
         </button>
       </div>
+      
       <div class="collapse navbar-collapse" id="nav-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="www.google.com">Google</a></li>
-          <li><a href="www.yahoo.com">Yahoo</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="menu.html">Menu</a></li>
         </ul>
-      </div> <!--End navbar-collapse-->
+      </div>
+
     </div> <!--End container-fluid-->
   </nav>
   
   <div class="container">
-  <h1>Menu</h1>
+    <img src="img/crownlogo.png" class="img-responsive center-block"/>
   
     <ul class="nav nav-pills" role="tablist">
       <li class="active"><a href="#sundaes" role="tab" data-toggle="tab">Sundaes</a></li>
@@ -235,6 +238,8 @@
           <span class="price">5.19</span>
         </article>
         
+        <h2>Options for our malts and shakes:</h2>
+        
         <article class="fooditem">
           <h2>Thick</h2>
           <span class="price">Add 1.09</span>
@@ -263,7 +268,8 @@
       
       <div class="tab-pane fade in" id="sandwiches">        
         <h1>Sandwiches</h1>
-  
+        <i>All our sandwiches are served with chips and a pickle</i>
+        
         <article class="fooditem">
           <h2>Heart Stopping BLT</h2>
           Thick-sliced bacon, lettuce and tomato with Miracle
