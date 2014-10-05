@@ -1,19 +1,17 @@
 body {
     padding-top: 70px;
     padding-bottom: 25px;
-}
-
-.imgdiv {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     background-image: url("../img/interior.jpg");
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-    z-index: -1;
+    /*background-attachement: */
+}
+
+.shrink {
+    height: 250px;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
 }
