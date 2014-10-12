@@ -1,8 +1,3 @@
-body {
-    padding-top: 70px;
-    padding-bottom: 25px;
-}
-
 @media (max-width: 768px) { /* Stacks the tabs once the screen is small enough */
     .nav-pills > li {
         float:none;

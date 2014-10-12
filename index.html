@@ -8,6 +8,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/template.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,6 +39,7 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="reservation.html">Make a reservation</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </div>
 
@@ -45,18 +47,20 @@
   </nav>
   
   <div class="container">
-    <div class="row">
+    <div class="row" id="mainlogo">
       <img src="img/crownlogo.png" class="img-responsive center-block"/>
     </div>
     
     <div class="row">
-      <div class="col-sm-4"><img src="img/blt-thumb.jpg" class="img-responsive center-block img-thumbnail"/></div>
-      <div class="col-sm-4"><img src="img/front-thumb.jpg" class="img-responsive center-block img-thumbnail"/></div>
-      <div class="col-sm-4"><img src="img/sundae-thumb.jpg" class="img-responsive center-block img-thumbnail"/></div>
+      <ul class="list-inline thumbnails">
+        <li><img src="img/blt-thumb.jpg" class="img-responsive center-block img-thumbnail"/></li>
+        <li><img src="img/front-thumb.jpg" class="img-responsive center-block img-thumbnail"/></li>
+        <li><img src="img/sundae-thumb.jpg" class="img-responsive center-block img-thumbnail"/></li>
+      </ul>
     </div>
     
     <div class="row">
-      <h1 class="text-center">Welcome to Crown Candy Kitchen!</h1> 
+      <h1 class="text-center"><b>Welcome to Crown Candy Kitchen!</b></h1> 
     </div>
     
     <div class="row">
@@ -67,10 +71,10 @@
     <div class="row">
       <div class="col-md-4">
         <h2>Where</h2>
-        <a class="btn btn-info btn-sm" href="https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f">View on Google Maps</a><br>
         1401 St. Louis Ave.<br>
         St. Louis, MO 63106<br>
-        314-621-9650
+        314-621-9650<br>
+        <a class="btn btn-info btn-sm" href="https://www.google.com/maps/place/Crown+Candy+Kitchen/@38.65133,-90.197888,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b332e8cd2857:0xb2fbff578da9482f">View on Google Maps</a>
       </div>
       <div class="col-md-4">
         <h2>When</h2>
@@ -83,6 +87,8 @@
         <a href="http://www.facebook.com/crowncandykitchen"><img src="img/fb.png" height="29"/></a>
         <a href="http://twitter.com/#!/CrownCandy"><img src="img/twitter.png" height="29"/></a>
         <a href="http://crowncandykitchen.net/feed/rss/"><img src="img/rss.png" height="29"/></a>
+        <br>
+        <a class="btn btn-info btn-sm" href="http://www.yelp.com/biz/crown-candy-kitchen-saint-louis">Read reviews on Yelp</a>
       </div>
     </div>
   </div> <!--End main container-->
