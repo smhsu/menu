@@ -271,7 +271,8 @@
       
       <div class="tab-pane fade in" id="sandwiches">        
         <h1>Sandwiches</h1>
-        <i>All our sandwiches are served with chips and a pickle</i>
+        <i>All our sandwiches are served with chips and a pickle</i><br>
+        Don't forget to add some <a href="#extras" role="tab" data-toggle="tab">extras</a>!
         
         <article class="fooditem">
           <h2>Heart Stopping BLT</h2>
@@ -393,7 +394,7 @@
       
       <div class="tab-pane fade in" id="salads">
         <h1>Salads</h1>
-
+        You can add <a href="#extras" role="tab" data-toggle="tab">extras</a> to salads too!
         <article class="fooditem">
           <h2>Chef Salad</h2>
           Ham, turkey, bacon, lettuce, tomato, cheese and egg
@@ -493,5 +494,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('#sandwiches a').click(function (e) {
+      e.preventDefault();
+      $('a[href="' + $(this).attr('href') + '"]').tab('show');
+    });
+    $('#salads a').click(function (e) {
+      e.preventDefault();
+      $('a[href="' + $(this).attr('href') + '"]').tab('show');
+    });
+  </script>
 </body>
 </html>
