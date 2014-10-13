@@ -5,23 +5,34 @@ body {
     /*background-attachement: */
 }
 
+#row1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#infocol div {
+    width: 75%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#founder-img {
+    max-height: 600px;
+}
+
 .btn-sm {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#wrap {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
-#content {
-    float: left;
-    position: relative;
-    left: -50%;
-}
-
-#imgcol {
-    max-height: 500px;
+#row2 {
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
 }
